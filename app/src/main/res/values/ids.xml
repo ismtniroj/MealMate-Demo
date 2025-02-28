@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="signout" type="id">signout</item>
+    <item name="profileImage" type="id">profileimage</item>
+    <item name="txt_name" type="id">txt_name</item>
+    <item name="txt_Mail" type="id">txt_mail</item>
+    <item name="signIn" type="id">signIn</item>
+    <item name="profileImage" type="id">profileimage</item>
+</resources>
