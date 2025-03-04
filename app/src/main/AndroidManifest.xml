@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MealMateDemo"
         tools:targetApi="31">
         <activity
+            android:name=".Add_Recipe"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".Forgot_Password_Page"
             android:exported="false" />
         <activity
@@ -22,7 +28,7 @@
             android:name=".Signup_Page"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SplaceScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

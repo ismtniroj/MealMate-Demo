@@ -6,4 +6,5 @@
     <item name="txt_Mail" type="id">txt_mail</item>
     <item name="signIn" type="id">signIn</item>
     <item name="profileImage" type="id">profileimage</item>
+    <item name="splaceImage" type="id">splaceImage</item>
 </resources>
