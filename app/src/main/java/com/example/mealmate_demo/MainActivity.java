@@ -60,17 +60,17 @@ public class MainActivity extends AppCompatActivity {
                     break;
                     case R.id.about_menu:
                         Toast.makeText(MainActivity.this, "Click To Home Items ", Toast.LENGTH_SHORT).show();
-                        Intent aboutIntent=new Intent(getApplicationContext(),About.class);
+                        Intent aboutIntent=new Intent(getApplicationContext(),About_Page.class);
                         startActivity(aboutIntent);
                         break;
                     case R.id.week_menu:
                         Toast.makeText(MainActivity.this, "Click To Home Items ", Toast.LENGTH_SHORT).show();
-                        Intent weekIntent=new Intent(getApplicationContext(),Week.class);
+                        Intent weekIntent=new Intent(getApplicationContext(),Weeks.class);
                         startActivity(weekIntent);
                         break;
                     case R.id.recipe_menu:
                         Toast.makeText(MainActivity.this, "Click To Home Items ", Toast.LENGTH_SHORT).show();
-                        Intent recipeIntent=new Intent(getApplicationContext(),Recipe.class);
+                        Intent recipeIntent=new Intent(getApplicationContext(),Add_Recipe.class);
                         startActivity(recipeIntent);
                         break;
 

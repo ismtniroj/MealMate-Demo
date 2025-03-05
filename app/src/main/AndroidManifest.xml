@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MealMateDemo"
         tools:targetApi="31">
         <activity
+            android:name=".Weeks"
+            android:exported="false" />
+        <activity
+            android:name=".About_Page"
+            android:exported="false" />
+        <activity
             android:name=".Add_Recipe"
             android:exported="false" />
         <activity
