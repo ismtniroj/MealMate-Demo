@@ -12,6 +12,9 @@
     <item android:id="@+id/recipe_menu"
         android:title="Recipes"
         android:icon="@drawable/baseline_fastfood_24"/>
+    <item android:id="@+id/grocery_menu"
+        android:title="grocery"
+        android:icon="@drawable/baseline_fastfood_24"/>
 
 
     <item android:title="Authentication">
