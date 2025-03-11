@@ -46,5 +46,6 @@ dependencies {
         implementation ("com.google.android.gms:play-services-auth:20.7.0")
     implementation ("com.github.bumptech.glide:glide:4.16.0")
     implementation ("com.github.dhaval2404:imagepicker:2.1")
+    implementation ("de.hdodenhof:circleimageview:3.1.0")
     androidTestImplementation(libs.espresso.core)
 }
