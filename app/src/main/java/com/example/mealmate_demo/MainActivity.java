@@ -54,29 +54,35 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
                 int id =item.getItemId();
-                switch (id){
-                  case R.id.home_menu:
+                if (id==R.id.home_menu){
                     Toast.makeText(MainActivity.this, "Click To Home Items ", Toast.LENGTH_SHORT).show();
                     Intent homeIntent=new Intent(getApplicationContext(),MainActivity.class);
                     startActivity(homeIntent);
-                    break;
-                    case R.id.about_menu:
-                        Toast.makeText(MainActivity.this, "Click To Home Items ", Toast.LENGTH_SHORT).show();
-                        Intent aboutIntent=new Intent(getApplicationContext(),About_Page.class);
-                        startActivity(aboutIntent);
-                        break;
-                    case R.id.week_menu:
-                        Toast.makeText(MainActivity.this, "Click To Home Items ", Toast.LENGTH_SHORT).show();
-                        Intent weekIntent=new Intent(getApplicationContext(),Weeks.class);
-                        startActivity(weekIntent);
-                        break;
-                    case R.id.recipe_menu:
-                        Toast.makeText(MainActivity.this, "Click To Home Items ", Toast.LENGTH_SHORT).show();
-                        Intent recipeIntent=new Intent(getApplicationContext(),Add_Recipe.class);
-                        startActivity(recipeIntent);
-                        break;
-
                 }
+                if (id==R.id.about_menu){
+                    Toast.makeText(MainActivity.this, "Click To Home Items ", Toast.LENGTH_SHORT).show();
+                    Intent aboutIntent=new Intent(getApplicationContext(),About_Page.class);
+                    startActivity(aboutIntent);
+                }
+//                switch (id){
+//                  case R.id.home_menu:
+//
+//                    break;
+//                    case R.id.about_menu:
+//
+//                        break;
+//                    case R.id.week_menu:
+//                        Toast.makeText(MainActivity.this, "Click To Home Items ", Toast.LENGTH_SHORT).show();
+//                        Intent weekIntent=new Intent(getApplicationContext(),Weeks.class);
+//                        startActivity(weekIntent);
+//                        break;
+//                    case R.id.recipe_menu:
+//                        Toast.makeText(MainActivity.this, "Click To Home Items ", Toast.LENGTH_SHORT).show();
+//                        Intent recipeIntent=new Intent(getApplicationContext(),Add_Recipe.class);
+//                        startActivity(recipeIntent);
+//                        break;
+//
+//                }
                 return false;
             }
         });
